@@ -1,0 +1,175 @@
+/*---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|Estilos Padrões das Páginas|---|---|---|---|---|---|---|---|---|---|---|---|---|---|*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Altera toda a página */
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Altera todo o corpo da página */
+body {
+    background-color: #E6E6E6;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*Altera a cor da nav bar da página*/
+.head{
+    background-color: #000000;
+}
+
+/**/
+.containerPadrao{
+    max-width: 47%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+
+/*Altera a cor dos links da nav bar*/
+.corLink1{
+    color: #FFFFFF;
+}
+
+/*Adiciona um efeito ao passar o mouse sobre os links da nav bar*/
+.corLink1:hover{
+    color: #f0ca4e;
+}
+
+/**/
+.titulo{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+/**/
+.alinharTxt{
+    text-align: center;
+}
+
+/**/
+.imgTxt{
+    display: flex;
+}
+
+/**/
+.div1{
+    width: 35%;
+    padding: 10px;
+    align-content: center;
+    text-align: left;
+    background-color: #000000;
+}
+
+/**/
+.div2{
+    width: 65%;
+    padding: 10px;
+}
+
+/**/
+.div3{
+    width: 35%;
+    padding: 10px;
+    text-align: left;
+}
+
+/**/
+.cor1{
+    background-color:  #FFFFFF;
+    padding: 35px;
+}
+
+/**/
+.cor2{
+    background-color:  #E6E6E6;
+    padding: 35px;
+}
+
+/**/
+.txtDown{
+    margin-top: 50px;
+}
+
+.imgMapa{
+    width: 100%;
+    height: 500px;
+    border: 0;
+}
+
+/* Declaramos alturas, devido ao posicionamento do elemento img */
+.cor3 .carousel-item {
+  height: 10rem;
+  background-color: #000000;
+}
+
+.cor3 .carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: auto;
+}
+
+/* Declaramos alturas, devido ao posicionamento do elemento img */
+.cor1 .carousel-item {
+  height: 44rem;
+  background-color: #000000;
+}
+
+.cor1 .carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 44rem;
+}
+
+.inputTextArea{
+    height: 150px;
+}
+
+.imgTitulo{
+    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+}
+
+.imgLegenda1{
+    color:#f0ca4e;
+}
+
+.imgLegenda2{
+    color:#FFFFFF;
+}
+
+.footer{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1366px) {
+    /*Altera o container onde fica os elementos do site, exemplo: tabela, título da tabela, botões e etc...*/
+    .containerPadrao{
+        max-width: 85%;
+    }
+}
+
+@media (max-width: 766px) {
+    /**/
+    .imgTxt{
+        display: grid;
+    }
+
+    .containerPadrao{
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
